@@ -8,13 +8,9 @@ Cet outil automatise la **découverte d'hôtes** et le **balayage des ports sens
 
 ## Contexte
 
-Ce script a été développé dans le cadre de mon **stage de cybersécurité** au sein de l'
-[Entente Valabre](https://www.entente-valabre.com) (Pôle Innovations et Nouvelles Technologies), 
-structure interrégionale de sécurité civile basée en région PACA.
+Ce script a été développé dans le cadre de mon **stage de cybersécurité** au sein de l'[Entente Valabre](https://www.entente-valabre.com) (Pôle Innovations et Nouvelles Technologies), structure interrégionale de sécurité civile basée en région PACA.
 
-L'objectif était de disposer d'un outil d'audit interne rapide, sans dépendance à des solutions 
-tierces comme Nmap, pour cartographier les ports sensibles exposés sur le réseau de l'organisation 
-et alimenter la démarche de supervision sécurité en place.
+L'objectif était de disposer d'un outil d'audit interne rapide, sans dépendance à des solutions tierces comme Nmap, pour cartographier les ports sensibles exposés sur le réseau de l'organisation et alimenter la démarche de supervision sécurité en place.
 
 ---
 
@@ -67,8 +63,8 @@ et alimenter la démarche de supervision sécurité en place.
 ## Installation
 
 ```bash
-git clone https://github.com/votre-username/Scan_ports.git
-cd Scan_ports
+git clone https://github.com/votre-username/scan-ports.git
+cd scan-ports
 pip install -r requirements.txt
 ```
 
