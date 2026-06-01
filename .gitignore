@@ -1,0 +1,5 @@
+rapport_scan.xlsx
+*.xlsx
+__pycache__/
+*.pyc
+.venv/
