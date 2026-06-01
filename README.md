@@ -1,4 +1,4 @@
-# 🔍 Network Port Scanner
+# 🔍 Scanner de Ports Réseaux
 
 > Scanner de ports réseau multithreadé avec rapport Excel de qualité audit — écrit en Python.
 
@@ -67,8 +67,8 @@ et alimenter la démarche de supervision sécurité en place.
 ## Installation
 
 ```bash
-git clone https://github.com/votre-username/network-port-scanner.git
-cd network-port-scanner
+git clone https://github.com/votre-username/Scan_ports.git
+cd Scan_ports
 pip install -r requirements.txt
 ```
 
@@ -77,7 +77,7 @@ pip install -r requirements.txt
 ## Utilisation
 
 ```
-python scanner_reseau.py -t <CIBLES> [options]
+python scan_ports.py -t <CIBLES> [options]
 ```
 
 ### Options
@@ -94,16 +94,16 @@ python scanner_reseau.py -t <CIBLES> [options]
 
 ```bash
 # Scanner un sous-réseau complet
-python scanner_reseau.py -t 192.168.1.0/24
+python scan_ports.py -t 192.168.1.0/24
 
 # Scanner plusieurs cibles avec un nom de fichier personnalisé
-python scanner_reseau.py -t 10.0.0.1 10.0.0.5 172.16.0.0/28 -o audit_infra.xlsx
+python scan_ports.py -t 10.0.0.1 10.0.0.5 172.16.0.0/28 -o audit_infra.xlsx
 
 # Scan rapide avec plus de threads et timeout réduit
-python scanner_reseau.py -t 192.168.0.0/24 --workers 40 --timeout 0.5
+python scan_ports.py -t 192.168.0.0/24 --workers 40 --timeout 0.5
 
 # Mode verbeux pour le débogage
-python scanner_reseau.py -t 10.0.0.0/28 -v
+python scan_ports.py -t 10.0.0.0/28 -v
 ```
 
 ---
@@ -112,7 +112,7 @@ python scanner_reseau.py -t 10.0.0.0/28 -v
 
 ```
 network-port-scanner/
-├── scanner_reseau.py   # Script principal
+├── scan_ports.py   # Script principal
 ├── requirements.txt    # Dépendances Python
 ├── .gitignore          # Exclusion des rapports générés
 └── README.md
